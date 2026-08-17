@@ -1,8 +1,18 @@
 const publications = [
   {
     year: 2026,
+    type: "under-review",
+    text: `<b>Revisiting Differential Characteristics of SPECK and CHAM via Extended Quasidifferential Framework</b>, <b>Myungkyu Lee</b>, Yunjae Hwang, Hanbeom Shin, Insung Kim, Sunyeop Kim, Byoungjin Seok, Dongjae Lee, Deukjo Hong, Jaechul Sung, Seokhie Hong. <i>Under review</i>.`
+  },
+  {
+    year: 2026,
     type: "preprint",
     text: `<a href="https://eprint.iacr.org/2026/1633" target="_blank" rel="noopener noreferrer"><b>Rotational-Quasidifferential Framework -- A Geometric Approach to Rotational-XOR Cryptanalysis</b></a>, <b>Myungkyu Lee</b>, Byoungjin Seok, Dongjae Lee, Deukjo Hong, Jaechul Sung, Seokhie Hong. <i>Cryptology ePrint Archive</i>, Paper 2026/1633.`
+  },
+  {
+    year: 2026,
+    type: "preprint",
+    text: `<a href="https://eprint.iacr.org/2026/340" target="_blank" rel="noopener noreferrer"><b>Improving Neural-Inspired Integral Distinguishers via a Linear-Algebraic Approach</b></a>, Yunjae Hwang, Insung Kim, Sunyeop Kim, <b>Myungkyu Lee</b>, Hanbeom Shin, Deukjo Hong, Seokhie Hong, Dongjae Lee, Jaechul Sung, Byoungjin Seok. <i>Cryptology ePrint Archive</i>, Paper 2026/340.`
   },
   {
     year: 2025,
@@ -32,6 +42,7 @@ const publications = [
 ];
 
 const lists = {
+  "under-review": document.getElementById("under-review-list"),
   preprint: document.getElementById("preprint-list"),
   journal: document.getElementById("journal-list"),
   "domestic-conference": document.getElementById("domestic-conference-list")
